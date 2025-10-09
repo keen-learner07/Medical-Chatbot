@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is hypertension?",
+    "answer": "Hypertension, also known as high blood pressure, is a condition in which the force of blood against the walls of the arteries is consistently too high. Persistent hypertension increases the risk of heart disease, stroke, kidney damage, and other complications. It is commonly defined as a blood pressure of 140/90 mm Hg or higher in adults."
+  },
+  {
+    "question": "What is the normal blood pressure range for adults?",
+    "answer": "According to the World Health Organization and the American Heart Association, normal adult blood pressure is approximately 120/80 mm Hg. Blood pressure between 120-129/80 mm Hg is considered elevated, while readings above 130/80 mm Hg may indicate hypertension."
+  },
+  {
+    "question": "How is hypertension treated?",
+    "answer": "Treatment often involves lifestyle modifications such as dietary changes, regular exercise, limiting alcohol and salt intake, and stress management. Medications such as diuretics, ACE inhibitors, beta-blockers, and calcium channel blockers may be prescribed. Treatment plans are tailored based on individual risk factors and health conditions."
+  },
+  {
+    "question": "What is diabetes mellitus type 2?",
+    "answer": "Type 2 diabetes is a chronic condition that affects the way the body processes blood sugar (glucose). In type 2 diabetes, the pancreas may produce enough insulin, but the cells have become resistant to it. This leads to high blood sugar levels. Common symptoms include excessive thirst, frequent urination, fatigue, and blurred vision. Management includes lifestyle changes, oral medications, and sometimes insulin therapy."
+  },
+  {
+    "question": "What are the symptoms of diabetes?",
+    "answer": "Symptoms of diabetes can include frequent urination, excessive thirst, unexplained weight loss, fatigue, blurred vision, slow healing of wounds, and increased susceptibility to infections. Early detection and management are crucial to prevent complications."
+  },
+  {
+    "question": "What is anemia?",
+    "answer": "Anemia is a condition characterized by a reduced number of healthy red blood cells or hemoglobin, which decreases the oxygen-carrying capacity of the blood. Causes include iron deficiency, vitamin B12 deficiency, chronic disease, and blood loss. Symptoms include fatigue, weakness, pale skin, shortness of breath, and dizziness. Treatment depends on the cause and may include supplements or medications."
+  },
+  {
+    "question": "What is asthma?",
+    "answer": "Asthma is a chronic respiratory condition in which the airways become inflamed and narrowed, making it difficult to breathe. Common triggers include allergens, exercise, cold air, and respiratory infections. Symptoms include shortness of breath, coughing, wheezing, and chest tightness. Treatment includes inhalers, avoiding triggers, and long-term control medications."
+  },
+  {
+    "question": "What is obesity?",
+    "answer": "Obesity is a condition characterized by excessive body fat that increases the risk of health problems such as heart disease, diabetes, and certain cancers. Causes include overeating, sedentary lifestyle, genetic factors, and metabolic issues. Management involves dietary changes, regular physical activity, behavioral therapy, and in severe cases, medication or surgery."
+  },
+  {
+    "question": "What is migraine?",
+    "answer": "Migraine is a neurological condition that causes intense headaches, often accompanied by nausea, vomiting, and sensitivity to light or sound. Triggers include hormonal changes, stress, certain foods, and lack of sleep. Treatment includes pain relievers, preventive medications, and lifestyle adjustments to avoid triggers."
+  },
+  {
+    "question": "What is arthritis?",
+    "answer": "Arthritis is the inflammation of one or more joints, causing pain, swelling, and reduced motion. Common types include osteoarthritis and rheumatoid arthritis. Causes include joint wear and tear, autoimmune disorders, and infections. Management includes anti-inflammatory medications, physical therapy, and lifestyle modifications."
+  },
+  {
+    "question": "What is depression?",
+    "answer": "Depression is a mood disorder that causes persistent feelings of sadness, loss of interest, and reduced energy. Causes include genetic factors, chemical imbalances in the brain, and stressful life events. Symptoms include low mood, fatigue, sleep disturbances, and difficulty concentrating. Treatment involves therapy, medications, and lifestyle adjustments."
+  },
+  {
+    "question": "What is pneumonia?",
+    "answer": "Pneumonia is an infection that inflames the air sacs in one or both lungs, which may fill with fluid. It can be caused by bacteria, viruses, or fungi. Symptoms include cough, fever, chills, shortness of breath, and chest pain. Treatment depends on the cause and may include antibiotics, rest, fluids, and oxygen therapy if severe."
+  },
+  {
+    "question": "What is a thyroid disorder?",
+    "answer": "Thyroid disorders occur when the thyroid gland produces too much or too little hormone. Causes include autoimmune diseases, iodine imbalance, and thyroid nodules. Symptoms may include weight changes, fatigue, heart rate changes, and mood swings. Treatment can involve hormone therapy, medications, or surgery, depending on the condition."
+  },
+  {
+    "question": "What lifestyle changes help maintain good health?",
+    "answer": "Healthy lifestyle choices include eating a balanced diet rich in fruits and vegetables, engaging in regular physical activity, maintaining a healthy weight, avoiding tobacco use, limiting alcohol consumption, managing stress, and getting regular medical checkups."
+  },
+  {
+    "question": "What are common risk factors for chronic diseases?",
+    "answer": "Common risk factors include poor diet, physical inactivity, obesity, smoking, excessive alcohol consumption, chronic stress, family history of disease, and certain environmental exposures. Addressing these risk factors can significantly reduce the likelihood of developing chronic illnesses."
+  }
+]
