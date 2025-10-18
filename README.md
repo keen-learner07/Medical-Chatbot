@@ -4,15 +4,14 @@ MedicoBot is an AI-powered chatbot designed to answer medical questions using cu
 
 🚀 Features
 
-💬 Conversational medical Q&A interface built with Streamlit
+   Conversational medical Q&A interface built with Streamlit
 
-🔍 Context-aware retrieval using FAISS
+   Context-aware retrieval using FAISS
 
-🤖 Powered by Groq Llama 3.1 and HuggingFace embeddings
+   Powered by Groq Llama 3.1 and HuggingFace embeddings
 
-🧠 Provides answers strictly from the Gale Encyclopedia of Medicine
+   Provides answers strictly from the Gale Encyclopedia of Medicine
 
-⚙️ Clear chat history and session memory for smooth interaction
 
 🧩 Tech Stack
 
