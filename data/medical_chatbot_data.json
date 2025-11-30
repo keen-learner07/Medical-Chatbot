@@ -58,5 +58,33 @@
   {
     "question": "What are common risk factors for chronic diseases?",
     "answer": "Common risk factors include poor diet, physical inactivity, obesity, smoking, excessive alcohol consumption, chronic stress, family history of disease, and certain environmental exposures. Addressing these risk factors can significantly reduce the likelihood of developing chronic illnesses."
+  },
+  {
+    "question": "What is malaria?",
+    "answer": "Malaria is a life-threatening disease caused by Plasmodium parasites, transmitted through the bite of infected female Anopheles mosquitoes. Symptoms include high fever, chills, headache, muscle pain, fatigue, nausea, and sweating. Treatment involves antimalarial medications such as artemisinin-based combination therapy. Preventive methods include mosquito nets, repellents, and controlling mosquito breeding."
+  },
+  {
+    "question": "What is dengue fever?",
+    "answer": "Dengue fever is a mosquito-borne viral infection causing high fever, severe headache, joint and muscle pain, rash, and nausea. In severe cases, it can lead to dengue hemorrhagic fever, which causes internal bleeding. Treatment focuses on hydration, rest, and symptom relief."
+  },
+  {
+    "question": "What is tuberculosis?",
+    "answer": "Tuberculosis (TB) is a contagious bacterial infection caused by Mycobacterium tuberculosis, mainly affecting the lungs. Symptoms include chronic cough, fever, night sweats, weight loss, and fatigue. Treatment requires long-term antibiotics such as isoniazid and rifampicin."
+  },
+  {
+    "question": "What is COVID-19?",
+    "answer": "COVID-19 is a respiratory infectious disease caused by the SARS-CoV-2 virus. Symptoms can include fever, cough, shortness of breath, fatigue, loss of taste or smell, and body aches."
+  },
+  {
+    "question": "What is stroke?",
+    "answer": "A stroke occurs when blood supply to the brain is interrupted, leading to brain cell damage. Symptoms include sudden numbness or weakness on one side of the body, confusion, difficulty speaking, vision problems, and severe headache."
+  },
+  {
+    "question": "What is heart attack?",
+    "answer": "A heart attack occurs when blood flow to part of the heart is blocked, often due to a clot in coronary arteries. Symptoms include chest pain, shortness of breath, sweating, nausea, and pain in the arm or jaw."
+  },
+  {
+    "question": "What is dehydration?",
+    "answer": "Dehydration occurs when the body loses more fluid than it takes in. Common symptoms include thirst, dry mouth, dark urine, fatigue, and dizziness. Treatment includes drinking oral rehydration solutions and fluids."
   }
 ]

@@ -8,6 +8,12 @@ from langchain_groq import ChatGroq
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 
+from chat_manager import (
+    initialize_chat_system,
+    sidebar_chats,
+    get_current_chat_messages,
+    add_message_to_current_chat,
+)
 
 from dotenv import load_dotenv
 
@@ -29,14 +35,13 @@ def get_vectorstore():
 
 
 def main():
+    initialize_chat_system()
+
+    with st.sidebar:
+        sidebar_chats()
+
     st.markdown(
-        """
-    <style>
-    .block-container {
-        padding-top: 1rem;  /* Reduce top padding */
-    }
-    </style>
-    """,
+        """ <style> .block-container { padding-top: 1rem; /* Reduce top padding */ } </style> """,
         unsafe_allow_html=True,
     )
 
@@ -51,20 +56,14 @@ def main():
 
     st.title("Ask MedicoBot!")
 
-    if st.button("🗑️ Clear Chat History"):
-        st.session_state.messages = []
-
-    if "messages" not in st.session_state:
-        st.session_state.messages = []
-
-    for message in st.session_state.messages:
+    for message in get_current_chat_messages():
         st.chat_message(message["role"]).markdown(message["content"])
 
     prompt = st.chat_input("Pass your prompt here")
 
     if prompt:
+        add_message_to_current_chat("user", prompt)
         st.chat_message("user").markdown(prompt)
-        st.session_state.messages.append({"role": "user", "content": prompt})
 
         try:
             vectorstore = get_vectorstore()
@@ -117,10 +116,10 @@ def main():
             )
 
             response = rag_chain.invoke({"input": prompt})
+            bot_reply = response["answer"]
 
-            result = response["answer"]
-            st.chat_message("assistant").markdown(result)
-            st.session_state.messages.append({"role": "assistant", "content": result})
+            add_message_to_current_chat("assistant", bot_reply)
+            st.chat_message("assistant").markdown(bot_reply)
 
         except Exception as e:
             st.error(f"Error: {str(e)}")
